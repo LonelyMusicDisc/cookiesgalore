@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "cookiesgalore",
+  "version": "${version}",
+  "name": "Cookies Galore",
+  "description": "gold, diamond and netherite cookies, because lol?",
+  "authors": [
+    "LonelyMusicDisc"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/cookiesgalore/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.github.lonelymusicdisc.cookiesgalore.client.CookiesgaloreClient"
+    ],
+    "main": [
+      "com.github.lonelymusicdisc.cookiesgalore.Cookiesgalore"
+    ]
+  },
+  "mixins": [
+    "cookiesgalore.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.1",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
