@@ -7,7 +7,9 @@
   "authors": [
     "LonelyMusicDisc"
   ],
-  "contact": {},
+  "contact": {
+    "repository": "https://github.com/LonelyMusicDisc/cookiesgalore"
+  },
   "license": "MIT",
   "icon": "assets/cookiesgalore/icon.png",
   "environment": "*",
